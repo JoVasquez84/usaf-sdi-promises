@@ -129,8 +129,8 @@ var addNewUserToDatabaseAsync = function(user) {
 }
 ```
 
-- [ ] Tinker with the example inside `examples/chaining.js` to build intuition around promise chaining
-- [ ] Complete the exercises in `bare_minimum/basicChaining.js` and make the *Basic chaining* tests pass
+- [X] Tinker with the example inside `examples/chaining.js` to build intuition around promise chaining
+- [X] Complete the exercises in `bare_minimum/basicChaining.js` and make the *Basic chaining* tests pass
 
 ## Advanced Content
 
