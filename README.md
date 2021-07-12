@@ -46,7 +46,7 @@ There are five steps to writing a promise-returning function:
         - this error will be made available in the `catch` block
   5. `return` the promise instance. This should be a synchronous step
 
-- [ ] Complete the exercises in `bare_minimum/promiseConstructor.js` and make the *Promise constructor* tests pass
+- [X] Complete the exercises in `bare_minimum/promiseConstructor.js` and make the *Promise constructor* tests pass
 
 #### Promisify existing functions
 
@@ -68,7 +68,7 @@ Promise.promisifyAll(fs);
 
 Read more: [http://bluebirdjs.com/docs/api/promisification.html](http://bluebirdjs.com/docs/api/promisification.html)
 
-- [ ] Complete the exercises in `bare_minimum/promisification.js` and make the *Promisification* tests pass
+- [X] Complete the exercises in `bare_minimum/promisification.js` and make the *Promisification* tests pass
 
 #### Chain promises together
 

@@ -55,12 +55,13 @@ var readFileAndMakeItFunny = function(filePath, callback) {
         return line + ' lol';
       })
       .join('\n');
-
-    callback(funnyFile);
+      //console.log(funnyFile)
+    callback(err, funnyFile);
   });
 };
 
 var readFileAndMakeItFunnyAsync = Promise.promisify(readFileAndMakeItFunny);
+//console.log(readFileAndMakeItFunnyAsync)
 
 // Export these functions so we can test them and reuse them in later exercises
 module.exports = {
